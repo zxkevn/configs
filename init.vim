@@ -1,6 +1,6 @@
 source ~/.vimrc
 
-colorscheme aurora
+colorscheme toast 
 hi normal guibg=none
 hi endofbuffer guibg=none
 if has("termguicolors")
