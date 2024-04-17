@@ -16,5 +16,6 @@ mkdir -p ~/.config/nvim/colors
 ln -f -s $PWD/init.vim ~/.config/nvim/init.vim
 ln -f -s $PWD/dark_plus.vim ~/.config/nvim/colors/dark_plus.vim
 ln -f -s $PWD/aurora.vim ~/.config/nvim/colors/aurora.vim
+ln -f -s $PWD/toast.vim ~/.config/nvim/colors/toast.vim
 ln -f -s $PWD/cpp.vim ~/.config/nvim/after/syntax/cpp.vim
 ln -f -s $PWD/c.vim ~/.config/nvim/after/syntax/c.vim
