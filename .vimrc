@@ -21,6 +21,8 @@ set undodir=~/.vim/undodir
 " Function key shortcuts
 nnoremap <F2> :set nonumber! <bar> :set norelativenumber!<CR>
 nnoremap <F3> :set paste!<CR>
+nnoremap <F5> I[<C-R>=strftime("%H:%M:%S")<CR>] -- <Esc>A
+inoremap <F5> <C-O>I[<C-R>=strftime("%H:%M:%S")<CR>] -- <Esc>A
 
 " highlight current line number
 hi clear CursorLine
